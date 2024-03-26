@@ -16,5 +16,3 @@ const titleCased = () => {
   return tutorials.map(item=>item.split(" ").map(item2=>(`${item2[0].toUpperCase()}${item2.slice(1)}`)).toString().replace(/,/g," "))
   
 }
-const word='what is the difference between event capturing and bubbling?'
-console.log(word.split(" "))
