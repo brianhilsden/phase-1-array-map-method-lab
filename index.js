@@ -13,6 +13,8 @@ const tutorials = [
 
 const titleCased = () => {
 
-  return tutorials.map(item=>item.split(" ").map(item2=>(`${item2[0].toUpperCase()}${item2.slice(1)}`)).toString().replace(/,/g," "))
+  return tutorials.map(item=>item.split(" ").map(item2=>(`${item2[0].toUpperCase()}${item2.slice(1)}`)).join(" "))
   
 }
+
+
